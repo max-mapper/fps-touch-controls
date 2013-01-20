@@ -1,0 +1,15 @@
+{
+  "name": "fps-touch-controls",
+  "version": "0.0.1",
+  "dependencies": {
+    "inherits": "1.0.0"
+  },
+  "devDependencies": {
+    "voxel-engine": "0.3.0",
+    "browservefy": "0.0.1",
+    "toolbar": "0.0.2"
+  },
+  "scripts": {
+    "start": "echo \"open localhost:8080\" && ./node_modules/browservefy/bin/browservefy demo.js 8080 -- -d"
+  }
+}
